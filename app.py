@@ -6,7 +6,7 @@ from collections import deque
 st.set_page_config(page_title="Twitter Settlement Loss Calculator", layout="wide")
 
 st.title("🐦 Twitter Securities Loss Calculator")
-st.markdown("Upload an Excel file to compute recognized losses (FIFO + Table 1 + Market Cap).")
+st.markdown("Upload an Excel file to compute recognized losses")
 
 uploaded_file = st.file_uploader("Upload Excel file", type=["xlsx"])
 
